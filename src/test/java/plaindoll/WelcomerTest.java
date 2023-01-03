@@ -18,9 +18,9 @@ public class WelcomerTest {
 		assertThat(welcomer.sayFarewell(), containsString("Farewell"));
 	}
 	@Test
-	public void welcomerSaysHunter() {
-		assertThat(welcomer.sayWelcome(), containsString("hunter"));
-		assertThat(welcomer.sayFarewell(), containsString("hunter"));
+	public void welcomerSaysProgrammer() {
+		assertThat(welcomer.sayWelcome(), containsString("programmer"));
+		assertThat(welcomer.sayFarewell(), containsString("programmer"));
 	}
 	@Test
 	public void welcomerSaysSilver(){
@@ -29,5 +29,9 @@ public class WelcomerTest {
 	@Test
 	public void welcomerSaysSomething(){
 		assertThat(welcomer.saySome(), containsString("something"));
+	}
+	@Test
+	public void welcomerSaysHunter(){
+		assertThat(welcomer.TestString(), containsString("hunter"));
 	}
 }
