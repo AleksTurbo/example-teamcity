@@ -1,4 +1,3 @@
- # TEST TeamSity progect
+ # TEST TeamSity project
 
- v. 0.0.5
- 
+ v. 0.0.7
